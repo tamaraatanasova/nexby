@@ -1,6 +1,6 @@
 # NEXBY 
 
-🌟 Mobile App (Android) - VErsion with local database
+🌟 Mobile App (Android) - Version with local database
 📋 Browse companies by categories
 🧭 Get notified when near a business
 👤 User registration & login
@@ -12,3 +12,5 @@
  - SQLite (local data storage)
  - Retrofit / Volley (API requests)
  - Google Maps / Location APIs
+
+INCOMING: VERSION 2.0 with API
