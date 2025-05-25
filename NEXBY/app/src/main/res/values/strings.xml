@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NEXBY</string>
+
+
+    <string name="navogation_drawer_open">Open navigation drawer</string>
+    <string name="navogation_drawer_close">Close navigation drawer</string>
+    <string-array name="user_types">
+        <item>user</item>
+        <item>admin</item>
+    </string-array>
+</resources>

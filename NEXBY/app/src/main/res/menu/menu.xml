@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/pocetna"
+            android:title="Почетна"
+            android:icon="@drawable/outline_location_home_24" />
+
+        <item android:id="@+id/profil"
+            android:title="Мој профил"
+            android:icon="@drawable/profile"/>
+
+        <item android:id="@+id/kontakt"
+            android:title="Контактирај админ"
+            android:icon="@drawable/contact"/>
+
+        <item android:id="@+id/kategorii"
+            android:title="Кaтегории"
+            android:icon="@drawable/category" />
+
+        <item android:id="@+id/logout"
+            android:title="Одјави се"
+            android:icon="@drawable/logout"/>
+
+    </group>
+
+
+</menu>

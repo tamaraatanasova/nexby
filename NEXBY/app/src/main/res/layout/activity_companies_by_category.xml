@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@color/my_red"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="start"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/logoimg"
+            android:clickable="true"
+            android:focusable="true" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/my_red" />
+
+    <!-- Horizontal layout for button and text -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical|start">
+
+        <!-- Text to show "Nearby" message -->
+        <TextView
+            android:id="@+id/adminWelcomeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Во твоја близина:"
+            android:textSize="24sp"
+            android:paddingStart="50dp"
+            android:paddingTop="6dp"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:layout_weight="1" /> <!-- This makes the TextView take all available space on the left -->
+
+        <!-- Go Back Button -->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Назад"
+            android:layout_gravity="end"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="@color/my_red"/>
+
+    </LinearLayout>
+
+
+    <!-- Container for dynamic content (Companies) -->
+    <LinearLayout
+        android:id="@+id/companiesContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
