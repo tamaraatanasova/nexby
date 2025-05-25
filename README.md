@@ -1,6 +1,6 @@
 # NEXBY 
 
-🌟 Mobile App (Android)
+🌟 Mobile App (Android) - VErsion with local database
 📋 Browse companies by categories
 🧭 Get notified when near a business
 👤 User registration & login
